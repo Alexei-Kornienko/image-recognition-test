@@ -51,10 +51,10 @@ l2,d2 = sift.read_features_from_file('test2.sift')
 
 matches = sift.match(d1, d2)
 
-#figure()
-#gray()
-#plot_matches(im1, im2, l1, l2, matches, True)
-#show()
+figure()
+gray()
+plot_matches(im1, im2, l1, l2, matches, False)
+show()
 
 
 
